@@ -16,7 +16,7 @@ int stack_deinit(struct stack_t *stack);
 int stack_push(struct stack_t *stack, uint32_t value);
 int stack_pop(struct stack_t *stack, uint32_t *value);
 
-int main()
+int main(void)
 {
      const size_t stack_capacity = 1024;
 

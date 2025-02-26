@@ -17,7 +17,7 @@ int queue_deinit(struct queue_t *queue);
 int queue_enqueue(struct queue_t *queue, uint32_t value);
 int queue_dequeue(struct queue_t *queue, uint32_t *value);
 
-int main()
+int main(void)
 {
      const size_t queue_capacity = 1024;
 

@@ -5,7 +5,7 @@ LDFLAGS += -fsanitize=undefined
 
 PREFIX ?= .
 
-TARGETS = stack
+TARGETS = stack queue
 
 .PHONY: all clean
 
